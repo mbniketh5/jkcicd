@@ -43,10 +43,8 @@ pipeline {
                 docker stop ${CONTAINER_NAME} || true
                 docker rm ${CONTAINER_NAME} || true
 
-                docker run -d \
-                --name ${CONTAINER_NAME} \
-                -p 80:80 \
-                ${IMAGE_NAME}
+                docker run -d --name static-web-container \
+		  -p 8081:80 static-web
                 """
             }
         }
