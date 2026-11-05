@@ -1,24 +1,154 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>KaptainBites Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <title>PlusPharma</title>
 
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-    <div class="container">
-        <h1>Welcome to KaptainBites</h1>
-
-        <p>Containerized Website Hosted on AWS EC2</p>
-
-        <p>CI/CD Pipeline using GitHub Actions</p>
-
-        <button>Deployment Successful</button>
+<header>
+    <div class="logo">
+        <i class="fas fa-capsules"></i>
+        PlusPharma
     </div>
 
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="overlay">
+        <h1>Digital Healthcare Platform</h1>
+
+        <p>
+            Delivering trusted pharmaceutical products
+            through secure and scalable healthcare services.
+        </p>
+
+        <button>Explore Medicines</button>
+    </div>
+</section>
+
+<section class="services">
+
+    <div class="card">
+        <i class="fas fa-user-shield"></i>
+        <h3>Authentication Service</h3>
+
+        <p>
+            Secure login, patient authorization
+            and healthcare identity verification.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-network-wired"></i>
+        <h3>API Gateway</h3>
+
+        <p>
+            Central routing layer for all
+            pharmacy microservices.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-pills"></i>
+        <h3>Drug Catalog</h3>
+
+        <p>
+            Browse medicines, dosage,
+            pricing and availability.
+        </p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-truck-medical"></i>
+        <h3>Order Service</h3>
+
+        <p>
+            Fast medicine ordering and
+            delivery tracking platform.
+        </p>
+    </div>
+
+</section>
+
+<section class="architecture">
+
+    <h2>Microservices Architecture</h2>
+
+    <div class="flow">
+
+        <div class="node">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Web & Mobile App</span>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="node gateway">
+            <i class="fas fa-network-wired"></i>
+            <span>API Gateway</span>
+        </div>
+
+        <div class="arrow">➜</div>
+
+        <div class="node">
+            <i class="fas fa-user-lock"></i>
+            <span>Authentication</span>
+        </div>
+
+        <div class="node">
+            <i class="fas fa-capsules"></i>
+            <span>Drug Catalog</span>
+        </div>
+
+        <div class="node">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Order Service</span>
+        </div>
+
+        <div class="node">
+            <i class="fas fa-database"></i>
+            <span>Database</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>500+</h2>
+        <p>Medicine Products</p>
+    </div>
+
+    <div class="stat">
+        <h2>50K+</h2>
+        <p>Customers Served</p>
+    </div>
+
+    <div class="stat">
+        <h2>99.9%</h2>
+        <p>System Availability</p>
+    </div>
+
+</section>
+
+<footer>
+    <h3>PlusPharma Healthcare Solutions</h3>
+    <p>Trusted Healthcare | Digital Pharmacy | Modern Architecture</p>
+</footer>
+
 </body>
-
 </html>
-
