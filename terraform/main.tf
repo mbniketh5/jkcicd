@@ -30,7 +30,7 @@ resource "aws_security_group" "web_sg" {
 
 resource "aws_instance" "website" {
 
-  ami           = "ami-0f58b397bc5c1f2e8"
+  ami           = "ami-06259b63260eddc13"
   instance_type = var.instance_type
   key_name      = var.key_name
 
